@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using the diff command isolated the lines of code where there was a difference so that I did not have to read through the entire file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You only have to maintain one version of each file.  The VCS lets you track what past changes have been made to get to the current state of the file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Automatically saving versions could result in having either too many small files that are useful or commits that are too large that they're devoid of meaning, depending on how frequently the file is automatically saved.  Manually choosing to commit gives me the option to choose logical commit points.  The one downside is if discipline is lacking and poor commit points are chosen that lack meaning then the commits will not be as useful.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    The general use cases are different.  Google Docs are most likely standalone documents that are not likely to be affected by one another.  Git on the other hand is primarily used for coding where there is likely to be some dependence on the different files within the repository.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows you to view all the commits to a repository along with a brief message describing what changes were made.  git diff compares what specific changes were made between two different commits of the same file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By having version control you can be more confident making changes because you know if you make a fatal mistake you will always be able to revert back to the original code before the mistake was made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To practice more complex Python projects on my own without having to fear completely breaking code and losing all my progress.
