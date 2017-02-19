@@ -6,3 +6,8 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
   If you're making changes locally to a Git repository you might want to commit those changes manually to the Git repository rather than having the changes made on GitHub override those changes.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  
+  A branch occurs within a repository.  A clone copies an existing library to your local machine, but does not maintain a reference to the original repository.  A fork maintains the original reference to that library.
