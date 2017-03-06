@@ -11,3 +11,8 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
   
   A branch occurs within a repository.  A clone copies an existing library to your local machine, but does not maintain a reference to the original repository.  A fork maintains the original reference to that library.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  Having the last known state of the remote stored locally allows you to make changes to the file when you do not have internet access and cannot access GitHub.  By having the last known state stored locally you know you're working off the latest version.
